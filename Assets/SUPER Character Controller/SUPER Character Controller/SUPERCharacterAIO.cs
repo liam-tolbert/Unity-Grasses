@@ -420,6 +420,7 @@ public class SUPERCharacterAIO : MonoBehaviour{
         
     }
     void Update(){
+        Shader.SetGlobalVector("_Player", transform.position + Vector3.up * GetComponent<CapsuleCollider>().radius);
         if(!controllerPaused){
         #region Input
         #if ENABLE_INPUT_SYSTEM

@@ -55,9 +55,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _InteractionDistance: 2
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Smoothness: 0.28
+    - _Scale: 0.2
+    - _Smoothness: 0.306
+    - _Speed: 4.75
+    - _Strength: 1.4
     m_Colors:
     - _Albedo: {r: 1, g: 0.9415875, b: 0.8066038, a: 0}
+    - _Player: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
